@@ -18,3 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
+
+## Credits
+
+  * [Lua](http://www.lua.org/)
+  * [LuaDist](http://luadist.org/)
+  * [Rufus::Lua](https://github.com/jmettraux/rufus-lua)
