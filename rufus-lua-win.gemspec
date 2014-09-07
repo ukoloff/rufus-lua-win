@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Rufus::Lua::Win::VERSION
   spec.authors       = ["Stas Ukolov"]
   spec.email         = ["ukoloff@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = 'Provides Lua binary on Windows'
+  spec.summary       = ''
+  spec.homepage      = "https://github.com/ukoloff/rufus-lua-win"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
