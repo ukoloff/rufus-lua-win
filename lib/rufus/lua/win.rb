@@ -10,7 +10,6 @@ module Rufus
         ENV['LUA_LIB']=dll
         ENV['LUA_PATH']=['', '/init'].map{|x| File.expand_path "?#{x}.lua", rocks}*';'
         ENV['LUA_CPATH']=File.expand_path "?.dll", rocks
-        require 'rufus-lua'
       end
 
       inject
