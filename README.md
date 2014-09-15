@@ -31,7 +31,7 @@ Or install it yourself as:
 
 Add two lines to Gemfile (in *that* order):
 
-    gem 'rufus-lua-win' if ENV['OS']=='Windows_NT'
+    gem 'rufus-lua-win' if Gem.win_platform?
     gem 'rufus-lua'
 
 Rufus::Lua::Win will setup environment variables, so Rufus::Lua could load.
@@ -39,7 +39,7 @@ Rufus::Lua::Win will setup environment variables, so Rufus::Lua could load.
 If not using bundler, just:
 
 ```ruby
-require 'rufus/lua/win'
+require 'rufus/lua/win' if Gem.win_platform?
 require 'rufus/lua'
 
 s=Rufus::Lua::State.new

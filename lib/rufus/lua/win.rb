@@ -12,7 +12,7 @@ module Rufus
         ENV['LUA_CPATH']=File.expand_path "?.dll", rocks
       end
 
-      inject
+      inject if Gem.win_platform?
     end
   end
 end
