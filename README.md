@@ -1,5 +1,7 @@
 # Rufus::Lua::Win
 
+[![Gem Version](https://badge.fury.io/rb/rufus-lua-win.svg)](http://badge.fury.io/rb/rufus-lua-win)
+
 Provides Lua binary on Windows.
 
 Embedding Lua into Ruby on Windows has two issues:
@@ -12,7 +14,8 @@ and patches package.path and package.cpath.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+You don't need to download, install or compile any Lua distribution.
+Just add this line to your application's Gemfile:
 
     gem 'rufus-lua-win'
 
