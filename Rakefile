@@ -11,5 +11,5 @@ if Gem.win_platform?
     Dir.glob('./test/*.rb'){|f| require f}
   end
 
-  task default: :test
+  task :default=>:test
 end
