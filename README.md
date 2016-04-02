@@ -1,5 +1,6 @@
 # Rufus::Lua::Win
 
+[![Build status](https://ci.appveyor.com/api/projects/status/s9nfaskbbq2t3c4f?svg=true)](https://ci.appveyor.com/project/ukoloff/rufus-lua-win)
 [![Gem Version](https://badge.fury.io/rb/rufus-lua-win.svg)](http://badge.fury.io/rb/rufus-lua-win)
 
 Provides Lua binary on Windows.
@@ -63,6 +64,7 @@ separate folder and add it to package.path (or package.cpath).
   * [Lua](http://www.lua.org/)
   * [LuaDist](http://luadist.org/)
   * [Rufus::Lua](https://github.com/jmettraux/rufus-lua)
+  * [AppVeyor](http://www.appveyor.com/)
 
 ## See also
 
