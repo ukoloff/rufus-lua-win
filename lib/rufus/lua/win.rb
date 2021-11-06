@@ -4,11 +4,7 @@ module Rufus
   module Lua
     module Win
       def self.inject
-        dll = if /64/ =~ RUBY_PLATFORM
-          File.expand_path '../../../../vendor/lua/bin/liblua64.dll', __FILE__
-        else
-          File.expand_path '../../../../vendor/lua/bin/liblua32.dll', __FILE__
-        end
+        dll = File.expand_path "../../../../vendor/lua/bin/liblua#{/64/ =~ RUBY_PLATFORM ? "64": "32"}.dll", __FILE__
         rocks = File.expand_path '../../lib/lua', dll
 
         ENV['LUA_LIB']=dll
